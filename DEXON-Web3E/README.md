@@ -23,9 +23,9 @@ It is possible that as Ethereum runs natively on embedded devices a new revoluti
     1. Create a new project in Platformio and edit the platformio.ini so it looks similar to:
 
 ```
-[env:esp32dev]
+[env:esp8266]
 platform = espressif32
-board = esp32dev
+board = esp8266
 framework = arduino
 
 ; Serial Monitor options
@@ -109,14 +109,3 @@ Libraries used:
 - Web3 Arduino https://github.com/kopanitsa/web3-arduino - skeleton of framework.
 - Trezor Crypto https://github.com/trezor/trezor-crypto - ECDSA sign, recover, verify, keccak256
 - cJSON https://github.com/DaveGamble/cJSON
-
-Coming soon:
-
-- Security door using NFT access (currently live at AlphaWallet office!).
-- ERC1155 balance enquiry.
-- Use Templates in library code for more flexible development.
-
-# Donations
-If you support the cause, we could certainly use donations to help fund development:
-
-0xbc8dAfeacA658Ae0857C80D8Aa6dE4D487577c63
