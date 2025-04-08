@@ -1,0 +1,29 @@
+{
+    "description": "DEXON port of Web3E (Ethereum Embedded) interface for devices running Arduino",
+    "repository": {
+        "url": "https://github.com/dexon-foundation/DEXON-Web3E",
+        "type": "git"
+    },
+    "platforms": [
+        "espressif32",
+        "espressif8266"
+    ],
+    "authors": [
+        {
+            "maintainer": true,
+            "name": "Wei-Ning Huang",
+            "url": "https://github.com/aitjcize",
+            "email": "w@dexon.org"
+        }
+    ],
+    "frameworks": "arduino",
+    "keywords": [
+        "Web3",
+        "Web3E",
+        "Ethereum",
+        "DApp"
+    ],
+    "name": "DEXON-Web3E",
+    "version": "0.92",
+    "homepage": "https://dexon.org"
+}
